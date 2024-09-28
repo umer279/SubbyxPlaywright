@@ -1,2 +1,3 @@
 "# SubbyxPlaywright" 
-"# SubbyxPlaywright" 
+"npm install"
+"npx playwright install" 
