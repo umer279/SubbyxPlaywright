@@ -1,6 +1,6 @@
 import { test } from '@playwright/test';
 import SubbyxMatchPage from '../pages/subbyXMatchPage';
-const { authorize, getOTP } = require('../apis/gmailService');
+const { authorize, getOTP } = require('../utils/gmailService');
 
 test('SubbyXMatch simple flow', async ({ page }) => {
    await page.goto('https://www.subbyx.com/match')
